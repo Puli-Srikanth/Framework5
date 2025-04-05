@@ -29,7 +29,7 @@ public class ToCreateContactTest extends BaseClass {
 		ccp.getLastname().sendKeys(LASTNAME);
 		ccp.getSaveContact().click();
 		//Fail
-		Assert.fail();
+		//Assert.fail();
 		ContactInfoPage cip = new ContactInfoPage(driver);
 		String name = cip.getContactInfo().getText();
 //		if(name.contains(LASTNAME)) {
