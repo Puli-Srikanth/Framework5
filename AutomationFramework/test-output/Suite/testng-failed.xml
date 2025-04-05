@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="organizationTest.ToCreateOrganizationwithTypeTest">
+        <methods>
+          <include name="beforeClassConfiguration"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="toCreateOrganizationwithTypeTest_004"/>
+          <include name="afterSuiteConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- organizationTest.ToCreateOrganizationwithTypeTest -->
+      <class name="contactTests.ToCreateContactTest">
+        <methods>
+          <include name="beforeClassConfiguration"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="toCreateContact_001"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="afterSuiteConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactTest -->
+      <class name="organizationTest.ToCreateOrganizationTest">
+        <methods>
+          <include name="beforeClassConfiguration"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="toCreateOrganization_002"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="afterSuiteConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- organizationTest.ToCreateOrganizationTest -->
+      <class name="contactTests.ToCreateContactwithOrganizationTest">
+        <methods>
+          <include name="beforeClassConfiguration"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="toCreateContactwithOrganization_005"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="afterSuiteConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactwithOrganizationTest -->
+      <class name="organizationTest.ToCreateOrganizationwithIndustryTest">
+        <methods>
+          <include name="beforeClassConfiguration"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="toCreateOrganizationwithIndustryType_003"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="afterSuiteConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- organizationTest.ToCreateOrganizationwithIndustryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
